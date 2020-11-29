@@ -1,0 +1,151 @@
+.repo {
+  display: flex;
+}
+.repo__left {
+  flex: 0 0 25%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 30px;
+}
+.repo__btn {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-bottom: 16px !important;
+  position: relative;
+
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+
+  user-select: none;
+  border: 1px solid;
+  border-radius: 6px;
+
+  background-color: var(--color-btn-bg);
+  border-color: var(--color-btn-border);
+  box-shadow: var(--color-btn-shadow), var(--color-btn-inset-shadow);
+}
+.repo__left__circular {
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+}
+.repo__left__vcardfullname {
+  font-size: 26px;
+  line-height: 1.25;
+}
+.repo__left__nickname {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  display: block !important;
+  color: var(--color-text-secondary);
+}
+.repo__left__img {
+  width: 200px;
+  border-radius: 50%;
+  height: 200px;
+}
+.repo__right {
+  flex: 0 0 75%;
+}
+.repo__right > input {
+  width: 95%;
+  margin-bottom: 20px;
+}
+
+.overview::before {
+  content: "\f2b9";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: black;
+  margin-right: 5px;
+}
+.repository::before {
+  content: "\f328";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: black;
+  margin-right: 5px;
+}
+.project::before {
+  content: "\f542";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: black;
+  margin-right: 5px;
+}
+.packages::before {
+  content: "\f1b3";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: black;
+  margin-right: 5px;
+}
+.repo__right__formcontrol {
+  padding: 5px 12px;
+  font-size: 14px;
+
+  line-height: 20px;
+  color: var(--color-text-primary);
+  vertical-align: middle;
+  background-color: var(--color-input-bg);
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid var(--color-input-border);
+  border-radius: 6px;
+  outline: none;
+  box-shadow: var(--color-shadow-inset);
+}
+.repo__right__formcontrol:focus {
+  border-color: var(--color-state-focus-border);
+  outline: none;
+  box-shadow: var(--color-state-focus-shadow);
+}
+.repo__list__container {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border-secondary);
+  display: flex;
+}
+.repo__right__list {
+}
+.repo__right__list__left {
+  flex: 0 0 75%;
+  display: inline-block;
+  /* padding-bottom: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border-secondary); */
+}
+.repo__right__list__left > h3 {
+  margin-bottom: 4px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.repo__right__list__left > h3 > a,
+.repo__right__list__left > h3 > a:visited {
+  text-decoration: none;
+  color: #0366d6;
+}
+.repo__right__list__right {
+  align-items: center;
+  flex: 0 0 25%;
+  display: flex;
+}
+.repo__right__language {
+  margin-right: 16px;
+  margin-left: 0;
+}
+.repo__right__content {
+  font-size: 12px;
+  margin-top: 8px;
+}

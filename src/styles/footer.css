@@ -1,0 +1,34 @@
+.footer {
+}
+.footer-left > img {
+  width: 30px;
+  padding: 10px;
+  object-fit: contain;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  padding-top: 40px;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  border-color: #eaecef;
+}
+.footer-left {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+}
+.footer-left > span {
+  padding-left: 20px;
+}
+.footer-right > span > a,
+.footer-right > span > a:visited {
+  text-decoration: none;
+  color: #0366d6;
+}
+.footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}

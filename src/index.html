@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>webpack starterkit</title>
-</head>
-<body>
-  <h1>webpack starter</h1>
-  <p>✨ A lightweight foundation for your next webpack based frontend project.</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>githubClone</title>
+
+    <script
+      src="https://kit.fontawesome.com/6e13058044.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="nav__left">
+          <img src= <%=require("./assets/images/gitwhite.png")%> alt=""
+          class="nav__logo" />
+          <div class="nav__input">
+            <input type="search" placeholder="Search or jump to" />
+          </div>
+
+          <div class="nav__links">
+            <a href="#">Pulls</a>
+            <a href="#">Issues</a>
+            <a href="#">Market place</a>
+            <a href="#">Explore</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="subnav">
+        <div class="subnav__left"></div>
+        <div class="subnav__right">
+          <div class="subnav__right__nav">
+            <a href="" class="icon overview">Overview</a>
+            <a href="" class="icon repository">Repositories</a>
+            <a href="" class="icon project">Projects</a>
+            <a href="" class="icon packages">Packages</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="repo">
+          <div class="repo__left">
+            <div class="repo__left__circular">
+              <img src=<%=require("./assets/images/cj.jpeg")%> alt=""
+              class="repo__left__img" />
+            </div>
+            <span class="repo__left__vcardfullname">Emmanuel Igwe</span>
+            <span class="repo__left__nickname">ecigwe</span>
+            <div style="width: 100%">
+              <button class="repo__btn">Edit profile</button>
+            </div>
+          </div>
+          <div class="repo__right">
+            <input
+              type="text"
+              placeholder="Find a repository"
+              class="repo__right__formcontrol"
+            />
+            <div class="repo__right__list">
+              <ul id="result">
+                <!-- <li class="repo__list__container">
+                <div class="repo__right__list__left">
+                  <h3><a href="#">react project</a></h3>
+                  <div class="repo__right__content">
+                    <span class="repo__right__language">javascript </span>
+                    <span>updated 20hr ago</span>
+                  </div>
+                </div>
+                <div class="repo__right__list__right">
+                  <div>star</div>
+                </div>
+              </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer-container container">
+          <div class="footer-left">
+            <img src="<%=require("./assets/images/githublogoash.png")%>" alt=""
+            >
+            <span>© 2020 GitHub, Inc</span>
+          </div>
+          <div class="footer-right">
+            <span><a href="#">Terms</a></span>
+            <span><a href="#">Privacy</a> </span>
+            <span> <a href="#">Security</a></span>
+            <span><a href="#">Status</a></span>
+            <span><a href="#">Help</a></span>
+            <span><a href="#">Contact gitHub</a></span>
+            <span><a href="#">Pricing</a></span>
+            <span><a href="#">API</a></span>
+            <span><a href="#">Trainning</a></span>
+            <span><a href="#">Blog</a></span>
+            <span><a href="#">About</a></span>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

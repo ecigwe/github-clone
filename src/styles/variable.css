@@ -1,0 +1,19 @@
+:root {
+  --navcolor: #24292e;
+  --white: #ffffff;
+  --body-color-primarytext: #24292e;
+  --color-text-secondary: #586069;
+  --color-btn-text: #959da5;
+  --color-btn-bg: #f3f4f6;
+  --color-btn-border: rgba(27, 31, 35, 0.15);
+  --color-btn-shadow: #6a737d;
+  --color-btn-inset-shadow: #d1d5da;
+  --color-underlinenav-text-hover: #24292e;
+  --color-border-tertiary: #d1d5da;
+  --color-input-bg: #fff;
+  --color-input-border: #e1e4e8;
+  --color-shadow-inset: #f3f4f6;
+  --color-state-focus-border: #0366d6;
+  --color-state-focus-shadow: rgba(3, 102, 214, 0.3);
+  --color-border-secondary: #eaecef;
+}

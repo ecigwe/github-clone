@@ -1,0 +1,50 @@
+.nav {
+  background-color: var(--navcolor);
+}
+.nav__logo {
+  width: 40px;
+  padding: 10px;
+  object-fit: contain;
+}
+.nav__left {
+  display: flex;
+  align-items: center;
+}
+.nav__input input[type="search"] {
+  background: #ededed
+    url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat
+    9px center;
+  border: solid 1px #ccc;
+  padding: 9px 10px 9px 32px;
+  width: 205px;
+
+  -webkit-border-radius: 10em;
+  -moz-border-radius: 10em;
+  border-radius: 10em;
+
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.nav__input input[type="search"]:focus {
+  width: 400px;
+  background-color: #fff;
+  border-color: #66cc75;
+
+  -webkit-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  -moz-box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+  box-shadow: 0 0 5px rgba(109, 207, 246, 0.5);
+}
+.nav__left > input {
+  margin-left: 20px;
+}
+.nav__links > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding-right: 20px;
+}
+.nav__input {
+  margin-left: 20px;
+  margin-right: 20px;
+}
